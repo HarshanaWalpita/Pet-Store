@@ -1,2 +1,0 @@
-# Pet-Store
-Middleware Assignment
