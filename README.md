@@ -20,22 +20,22 @@ As I mentioned in the document that submitted to the VLE then open the Postman t
 
 First use below URL to send a GET request to view all the pet's data. After send this request you can see details of five pets.
 
-http:/localhost:8080/v1/pets/start
+    http:/localhost:8080/v1/pets/start
 
 Then use below URL to send a POST request to add new pet. All the data that should be added are in the URL as parameters. 6 is pet's ID, 1 is pet's age, Burno is pet's name and Dog is pet's type.
 
-http:/localhost:8080/v1/pets/addOnePet/6/1/Bruno/Dog
+    http:/localhost:8080/v1/pets/addOnePet/6/1/Bruno/Dog
 
 Then use below URL to send a GET request to view only one pet. 1 is pet's ID which wants to see the data.
 
-http:/localhost:8080/v1/pets/find/1
+    http:/localhost:8080/v1/pets/find/1
 
 Then use below URL to send a DELETE request to delete a paticular pet's data. 1 is pet's ID.
 
-http:/localhost:8080/v1/pets/delete?id=1
+    http:/localhost:8080/v1/pets/delete?id=1
 
 Then use below URL to send a PUT request to update details of a paticular pet. All the data that should be update are send through the URL as parameters.
 
-http:/localhost:8080/v1/pets/update?id=3&name=Simba&age=5&type=Lion
+    http:/localhost:8080/v1/pets/update?id=3&name=Simba&age=5&type=Lion
 
 All these APIs run and got the results correctly. Screenshots of the APIs and results are in the document that submitted to the UGVLE.
